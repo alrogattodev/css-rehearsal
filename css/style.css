@@ -1,0 +1,56 @@
+	@import url(//db.onlinewebfonts.com/c/750d94312f5c64bdf8b1fc783a4cda89?family=BentonSans-Book);
+	@font-face {font-family: "BentonSans-Book"; src: url("//db.onlinewebfonts.com/t/750d94312f5c64bdf8b1fc783a4cda89.eot"); src: url("//db.onlinewebfonts.com/t/750d94312f5c64bdf8b1fc783a4cda89.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/750d94312f5c64bdf8b1fc783a4cda89.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/750d94312f5c64bdf8b1fc783a4cda89.woff") format("woff"), url("//db.onlinewebfonts.com/t/750d94312f5c64bdf8b1fc783a4cda89.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/750d94312f5c64bdf8b1fc783a4cda89.svg#BentonSans-Book") format("svg"); }
+	html, body {
+	  margin: 0;
+	  padding: 0;
+	  box-sizing: border-box;
+	  font-family: "BentonSans-Book";
+	}
+
+
+	main {
+	  background: #FFFFFF;
+	  background-image: url(https://legado.health4pet.com.br/trocacartaov2/img/background.jpg);
+	  background-size: contain;
+	  background-repeat: no-repeat;
+	  grid-area: main;
+	}
+
+	aside {
+	  background: #f5f5f5;
+	  grid-area: aside;
+	  padding-top: 100px;
+	  padding-left: 20%;
+	  padding-right: 20%;
+	}
+
+	.title { 
+	  font-size: 1.8em;
+	}
+	.text { 
+	  font-size: 1em;
+	}
+	input {
+	  background-color: transparent;
+	  padding-left: 10px;
+	  padding-right: 10px;
+	  height: 41px;
+	  width: 100%;
+	  border: 2px solid #c4c4c4;
+	}
+	button {
+	  width: 187px;
+	  height: 51px;
+	  background-color: #009EFF;
+	  border: none;
+	  color: #FFFFFF;
+	  margin-top: 30px;
+	}
+
+	.container {
+	  display: grid;
+	  grid-template-columns: 1.7fr
+		2.33fr;
+	  grid-template-rows: 0vh 100vh;
+	  grid-template-areas: "header header" "main aside" "footer footer";
+	}  
